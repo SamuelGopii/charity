@@ -49,7 +49,7 @@
 
  .donate-btn{
     padding: 1.5vw 5vw;
-   border: 1.5px solid rgb(241, 234, 10);
+   border: 1.5px solid #ff00ff;
    border-radius: 5px;
  }
  main{
@@ -137,10 +137,10 @@
  }
  .donate-btn-1{
     border: none;
-    background-color: #E5C203;
+    background-color: #ff00ff;
  }
  .donate-btn-2{
-    border: 1px solid rgb(176, 175, 175);
+    border: 1px solid #ff00ff;
     background-color: white;
  }
 
@@ -177,7 +177,7 @@
    display: flex;
    flex-direction: row;
    padding: 10vw 4vw;
-   background-color: #392396;
+   background-color: #078abd;
  }
  .what-we-do-content{
    width: 40%;
@@ -190,7 +190,7 @@
    padding: 0.8vw 1.2vw;
    border-radius: 50px;
    margin-top:70px;
-   background-color: #432E9B;
+   background-color: #0e7ba6;
 }
 .what-we-do-content h2{
    font-size: 4vw;
@@ -215,7 +215,7 @@
 .What-we-do-donate-btn{
    opacity: 0;
    padding: 2vw 3vw;
-   background-color: #FFD803;
+   background-color: #ff00ff;
    border: none;
    border-radius: 5px;
    font-size: 1.2vw;
@@ -225,7 +225,7 @@
 .What-we-do-donate-btn-visible{
    opacity: 1;
    padding: 2vw 3vw;
-   background-color: #FFD803;
+   background-color: #ff00ff;
    border: none;
    border-radius: 5px;
    font-size: 1.2vw;
@@ -282,7 +282,7 @@
  }
  .box{
    width: 100%;
-   background-color: #432E9B;
+   background-color: #0e7ba6;
    padding: 2vw;
    border-radius: 15px;
  }
@@ -392,27 +392,27 @@
  .helping-boxes-box .box-img1{
    width: 100%;
    height: 60%;
-   background-image: url('https://n.foxdsgn.com/sterling-3/wp-content/uploads/2021/01/Group-145-1.png');
-   background-repeat: none;
-   background-size: contain;
+   background-image: url('images/helping1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
    border-top-left-radius: 4px;
    border-top-right-radius: 4px;
  }
  .helping-boxes-box .box-img2{
    width: 100%;
    height: 60%;
-   background-image: url('https://n.foxdsgn.com/sterling-3/wp-content/uploads/2021/01/Group-145-1.png');
-   background-repeat: none;
-   background-size: contain;
+   background-image: url('images/helping1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
    border-top-left-radius: 4px;
    border-top-right-radius: 4px;
  }
  .helping-boxes-box .box-img3{
    width: 100%;
    height: 60%;
-   background-image: url('https://n.foxdsgn.com/sterling-3/wp-content/uploads/2021/01/Group-145-1.png');
-   background-repeat: none;
-   background-size: contain;
+   background-image: url('images/helping1.png');
+   background-repeat: no-repeat;
+   background-size: cover;
    border-top-left-radius: 4px;
    border-top-right-radius: 4px;
  }
@@ -433,7 +433,7 @@
    .helping-boxes-box .box-content button{
       padding: 2vw 2.5vw;
       margin-top: 2vw;
-      background-color: #FFD803;
+      background-color: #ff00ff;
       border: none;
       border-radius: 5px;
       font-size: 1.2vw;
@@ -444,7 +444,7 @@
       font-weight: 400;
       display: inline-block;
       padding: 0.3vw 0.5vw;
-      background-color: rgb(164, 162, 162);
+      background-color: #ff00ff;
       margin: 3vw 0vw 0vw 3vw;
    }
 
@@ -572,7 +572,7 @@
       position: absolute;
       top: 110px;
       left:800px;
-      background-color: #FFD803;
+      background-color: #078abd;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -586,7 +586,7 @@
       position: absolute;
       top: 110px;
       left: 60px;
-      background-color: #FFD803;
+      background-color: #078abd;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -610,7 +610,7 @@
       font-weight: 500;
       margin-top: 2vw;
       padding-right: 3vw;
-      color: #392396;
+      color: #ff00ff;
    }
    .inner-join-mission-p-visible{
       opacity: 1;
@@ -618,10 +618,10 @@
       font-weight: 500;
       margin-top: 2vw;
       padding-right: 3vw;
-      color: #392396;
+      color: rgb(198, 198, 10);
    }
 
-   /* support-section styling */
+   /* volunteers-section styling */
    .volunteers-container{
       width: 100vw;
       height: 160vh;
@@ -953,7 +953,7 @@ input{
    border-bottom-left-radius: 8px;
 }
 form button{
-   background-color: #E5C203;
+   background-color: #ff00ff;
    padding: 2.2vw 2vw;
    border: none;
    font-size: 1.2vw;
@@ -963,6 +963,12 @@ form button{
 
 /* footer section styling */
 footer{
+   opacity: 0;
+   width: 100vw;
+   height: 80vh;
+   background-color: #141414;
+}
+.footer{
    opacity: 0;
    width: 100vw;
    height: 80vh;
@@ -1070,52 +1076,3 @@ footer a{
    }
 }
 
-
-
-/* Responsive Design */
-.mob-menu{
-   display: none;
-}
-@media (max-width:320px){
-   header{
-      display: none;
-   }
-   .mob-menu{
-      width: 100vw;
-      height: 20vw;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      padding: 0vw 15vw 0vw 5vw;
-   }
-   .ri-menu-3-line{
-      font-size: 8vw;
-      cursor: pointer;
-   }
-   .mob-menu img{
-      width: 30vw;
-   }
-   .hero-image{
-      display: none;
-   }
-   .hero-content{
-      width: 100vw;
-      margin-top: -30px;
-   }
-   .hero-content img{
-      width: 30vw;
-       margin-left: 180px;
-       margin-top: 10vw;
-   }
-   .hero-content-h2{
-      font-size: 9vw;
-   }
-   .hero-content p{
-      font-size: 4vw;
-      text-wrap: wrap;
-      margin-left: 0px;
-      padding: 10px;
-      font-weight: 400;
-   }
-}
